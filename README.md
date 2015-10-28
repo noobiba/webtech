@@ -1,2 +1,2 @@
 # webtech
-Übungsaufgaben im Rahmen der Vorlesung zu Webtech
+This repository contains exercises for the university´s webtech course.
