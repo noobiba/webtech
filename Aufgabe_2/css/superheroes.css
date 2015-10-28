@@ -1,0 +1,20 @@
+body div{
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	background-color: #dedede;
+	box-sizing:border-box;
+}
+
+ul{
+	display:none;
+}
+
+p {
+	padding:2em;
+	background:#efefef;
+}
+footer{
+	font-style: Arial, sans-serif;
+	font-size: 9px;
+	color: fefefe;
+}
