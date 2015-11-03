@@ -6,23 +6,44 @@
     display:flex;
     flex-direction: column;
 }
-
 .header{
     padding: 0px;
     background-color: black;
 }
 .main {
-   display: flex;
-   margin: 20px 0;
+   display: block;
+   float: auto;
+   margin: 5px 0;
+}
+.sidebar-left,
+.sidebar-right {
+  width: 250px;
+  padding: 10px;
+  background-color: #efefef;
+  visibility: hidden;
+}
+
+.text{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  margin: 20px 200px;
+  margin-bottom: 20px;
 }
 h1{
 	padding-left: 30px;
-    margin: 5px;
-    font-size: 40px;
+  margin: 5px;
+  font-size: 40px;
 	font-family: 'Lobster', sans-serif;
 	color: red;
 	float: left;
-    display: inline-block;
+  display: inline-block;
+}
+h3 {
+  font-family: 'Lobster', sans-serif;
+  font-size: 26px;
+  margin: 20px 200px;
+  padding-bottom: 20px;
+  color: red;
 }
 .subnavigation{
 	background-color: #a7a7a7;
@@ -39,9 +60,9 @@ h1{
 	background-color: #a7a7a7;
 	padding: 10px 50px;
 	font-family: 'Quicksand', sans-serif;
-    color: #ffffff;
-    font-size: 14px;
-    text-transform: uppercase;
+  color: #ffffff;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 .navigation ul {
    display: flex;
@@ -78,6 +99,21 @@ a:active {
     color: red;
     text-decoration: none;
 }
+a.intext-link:link {
+  font-family: 'Quicksand';
+  font-size: 18px;
+  color: red;
+}
+a.intext-link:visited {
+  font-family: 'Quicksand';
+  font-size: 18px;
+  color: red;
+}
+a.intext-link:hover {
+  font-family: 'Quicksand';
+  font-size: 18px;
+  color: grey;
+}
 .footer {
     position: fixed;
     bottom: 0;
@@ -91,3 +127,4 @@ a:active {
     width: 100%; 
     height: auto; 
 }
+
