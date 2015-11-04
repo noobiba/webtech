@@ -28,8 +28,66 @@
             <li><a href="faq.html">FAQ</a></li>
         </ul>
     </nav>
-    <main class="hauptfenster">
-    	Hier ist mein Main Fenster.
+    <main class="main">
+        <aside class="sidebar-left">
+        </aside>
+        <h3>Kontaktformular</h3>
+    
+        <form> 
+            <table class="table">
+                <tr><td><label for="firstname">Vorname</label></td>
+                    <td><input type="text" id="firstname" placeholder="Bitte Vornamen eingeben." required></td>
+                </tr>
+                <tr>
+                    <td><label for="lastname">Nachname</label></td>
+                    <td><input type="text" id="lastname" placeholder="Bitte Nachname eingeben."></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Emailadresse</label></td>
+                    <td><input type="email" id="email" placeholder="Bitte Emailadresse eingeben."></td>
+                </tr>
+                <tr>
+                    <td><label for="which-hero">Superheld</label></td>
+                    <td><select id="which-hero">
+                            <option selected>Bitte auswählen</option>
+                            <option>Aquaman</option>
+                            <option>Batman</option>
+                            <option>Captain America</option>
+                            <option>Cyclops</option>
+                            <option>Deadpool</option>
+                            <option>Hulk</option>
+                            <option>Human Torch</option>
+                            <option>Iceman</option>
+                            <option>Invisible Woman</option>
+                            <option>Ironman</option>
+                            <option>Mister Fantastic</option>
+                            <option>Spiderman</option>
+                            <option>Storm</option>
+                            <option>Superman</option>
+                            <option>The Flash</option>
+                            <option>Thor</option>
+                            <option>Wolverine</option>
+                        </select></td>
+                </tr>   
+
+                <tr>
+                    <td><label for="type-of-work">Zu verrichtende Arbeiten</label></td>
+                    <td><input type="text" id="type-of-work" placeholder="Bitte Emailadresse eingeben."></td>
+                </tr>
+                <tr>
+                    <td><label for="special-wish">Sonderwünsche</label></td>
+                    <td><textarea rows="4" cols="50" id="special-wish" placeholder="Bitte Sonderwunsch angeben."></textarea></td>
+                </tr>
+                <tr>
+                    <td><button type="reset">Eingaben löschen</button></td>
+                    <td><button type="submit">Senden</button></td>
+                </tr>
+            </table>
+        </form>
+        
+        
+        <aside class="sidebar-right">
+        </aside>
     </main>
     <footer class="footer">    
         <div class="zentrum footer-navi">   

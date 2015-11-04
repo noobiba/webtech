@@ -97,7 +97,10 @@ h2 {
   margin-right: 30px;
   padding: 0px;
 }
-
+.table{
+  text-align: left;
+  vertical-align: middle;
+}
 
 /* /////  Navigations  ////  */
 
