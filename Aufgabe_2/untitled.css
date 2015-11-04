@@ -46,18 +46,7 @@ p {
     font-size: 16px;
     text-transform: uppercase;
 }
--------------------------
 
-Für input feld:
-
-input { 
-border-bottom-color: silver; 
-transition: border-bottom-color 1s;
-}
-
-input:fokus { 
-border-bottom-color: blue; 
-}
 
 
 

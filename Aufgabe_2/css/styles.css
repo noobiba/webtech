@@ -149,6 +149,15 @@ h2 {
     overflow:hidden; 
     vertical-align: middle;
 }
+.circle-image-big {
+    width: 470px;
+    height: 470px;
+    border-radius: 235px;
+    -webkit-border-radius: 235px;
+    -moz-border-radius: 235px;
+    overflow:hidden; 
+    vertical-align: middle;
+}
 .hero {
    background: url('../images/superman.jpg') no-repeat;
 }
@@ -157,6 +166,9 @@ h2 {
 }
 .little-space {
   margin-bottom: 50px;
+}
+.feature-img {
+  float: left;
 }
 
 
@@ -198,5 +210,41 @@ a.intext-link:hover {
   font-size: 18px;
   color: grey;
 }
+
+/* /////  Structure of form fields ////  */
+
+input, textarea, select, button {
+ font-family: 'Quicksand', sans-serif;
+ font-size: 16px;
+ padding: 5px;
+ margin: 5px;
+ border-radius: 5px;
+ border-style: solid;
+ border-color: grey;
+ width: 415px;
+}
+button {
+ font-family: 'Quicksand', sans-serif;
+ font-size: 16px;
+ padding: 5px;
+ margin: 5px 5px 5px 5px;
+ border-radius: 5px;
+ border-style: solid;
+ border-color: grey;
+ width: 200px;
+}
+
+label { 
+  display: inline; 
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16 px;
+  width: 6em;
+  padding: 16px;
+  margin: 16px;
+}
+
+
+
+
 
 

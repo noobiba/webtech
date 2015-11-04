@@ -33,7 +33,7 @@
         </aside>
         <h3>Kontaktformular</h3>
     
-        <form> 
+        <form enctype="text/plain" method="get" action="mailto:tanja.cerri@gmail.com"> 
             <table class="table">
                 <tr><td><label for="firstname">Vorname</label></td>
                     <td><input type="text" id="firstname" placeholder="Bitte Vornamen eingeben." required></td>
@@ -76,15 +76,17 @@
                 </tr>
                 <tr>
                     <td><label for="special-wish">Sonderwünsche</label></td>
-                    <td><textarea rows="4" cols="50" id="special-wish" placeholder="Bitte Sonderwunsch angeben."></textarea></td>
+                    <td><textarea rows="4" cols="50" id="special-wish" placeholder="Bitte Sonderwünsche angeben."></textarea></td>
                 </tr>
-                <tr>
-                    <td><button type="reset">Eingaben löschen</button></td>
-                    <td><button type="submit">Senden</button></td>
+                <tr><td></td><td>
+                    <table>
+                        <tr>
+                            <td><button type="reset">Eingaben löschen</button>
+                                <button type="submit">Senden</button></td></tr></table>
                 </tr>
             </table>
         </form>
-        
+        <p class="space"></p>
         
         <aside class="sidebar-right">
         </aside>
