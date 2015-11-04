@@ -1,6 +1,7 @@
 *{
 	box-sizing: border-box;
 }
+/* /////  Structure of the pages ////  */
 .wrapper {
     height: 100vh;
     display:flex;
@@ -22,6 +23,29 @@
   background-color: #efefef;
   visibility: hidden;
 }
+.footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 0px;
+    background-color: black;
+    width: 100%; 
+    height: auto; 
+}
+.container {
+  padding: 0px;
+  margin: 50px;
+}
+#featured-heroes td {
+  text-align: center; 
+  vertical-align: middle;
+}
+
+/* /////  Typographic things ////  */
 
 .text{
   font-family: 'Quicksand', sans-serif;
@@ -30,8 +54,8 @@
   margin-bottom: 20px;
 }
 h1{
-	padding-left: 30px;
-  margin: 5px;
+	padding: 0px 0px 10px 40px;
+  margin: 5px 0px 0px 0px;
   font-size: 40px;
 	font-family: 'Lobster', sans-serif;
 	color: red;
@@ -41,10 +65,21 @@ h1{
 h3 {
   font-family: 'Lobster', sans-serif;
   font-size: 26px;
-  margin: 20px 200px;
+  margin: 20px 60px;
   padding-bottom: 20px;
   color: red;
 }
+h2 {
+  font-family: 'Lobster', sans-serif;
+  font-size: 16px;
+  margin: -25px 60px 0px 60px;
+  padding-bottom: 20px;
+  color: black;
+}
+
+
+/* /////  Navigations  ////  */
+
 .subnavigation{
 	background-color: #a7a7a7;
 	padding: 10px 50px;
@@ -72,12 +107,37 @@ h3 {
    padding: 0 10px;
    list-style-type: none;
 }
+
+/* /////  Alignments and Circles  ////  */
+
 .zentrum {
    display: flex;
    align-items: center;
    justify-content: center;
    height: 50px;
 }
+.circle-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    overflow:hidden; 
+    vertical-align: middle;
+}
+.hero {
+   background: url('../images/superman.jpg') no-repeat;
+}
+.space {
+  margin-bottom: 300px;
+}
+.little-space {
+  margin-bottom: 50px;
+}
+
+
+
+/* /////  Structure of the links ////  */
 
 a:link {
     color: white;
@@ -114,17 +174,5 @@ a.intext-link:hover {
   font-size: 18px;
   color: grey;
 }
-.footer {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-color: black;
-    border-width: 1px;
-    padding: 0px;
-    background-color: black;
-    width: 100%; 
-    height: auto; 
-}
+
 
